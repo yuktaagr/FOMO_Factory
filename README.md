@@ -11,16 +11,18 @@ A full-stack application that displays real-time price data for stocks and crypt
 - Historical price data display
 - Frontend interface with React and Redux
 
-## Getting Started
-
 ### Prerequisites
 
-- Node.js and npm (or Yarn) installed on your system.
+- Node.js and npm installed on your system.
 - MongoDB cluster setup.
+- 
+### API Endpoints
+- GET /api/data?symbol=BTC: Fetches data for Bitcoin.
+- GET /api/data?symbol=ETH: Fetches data for Ethereum.
 
-### Installation
+### Technologies Used
+-Backend: Node.js, Express, MongoDB
+-Frontend: React, Next.js, Redux
+-APIs: CoinGecko API for cryptocurrency data
 
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
